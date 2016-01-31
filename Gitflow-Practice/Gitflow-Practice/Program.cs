@@ -10,7 +10,14 @@ namespace Gitflow_Practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            List<person> list = new List<person>();
+
+            //Add Name over here
+            list.Add(new Sebastian());
+
+            foreach (person person in list) {
+                Console.WriteLine(person.getName());
+            }
         }
     }
 }
