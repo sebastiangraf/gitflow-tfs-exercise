@@ -12,8 +12,9 @@ namespace Gitflow_Practice
         {
             List<person> list = new List<person>();
 
-            //Add Name over here
+            //Add Name under this line
             list.Add(new Sebastian());
+            //Add Name above this line
 
             foreach (person person in list) {
                 Console.WriteLine(person.getName());
