@@ -67,8 +67,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Sebastian.cs" />
-    <Compile Include="Test2.cs" />
-    <Compile Include="User1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

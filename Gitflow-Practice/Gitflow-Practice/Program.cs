@@ -14,8 +14,6 @@ namespace Gitflow_Practice
 
             //Add Name under this line
             list.Add(new Sebastian());
-            list.Add(new User1());
-            list.Add(new Test2());
             //Add Name above this line
 
             foreach (person person in list) {
